@@ -1,0 +1,22 @@
+.panel {
+  /* Add your panel styles here */
+}
+
+.image-panel {
+  /* Add your image panel styles here */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scrollable-images {
+  /* Add your scrollable images styles here */
+  display: flex;
+}
+
+.scrollable-images img {
+  /* Add your individual image styles here */
+  flex: 0 0 auto;
+  width: 300px; /* Adjust the width of each image as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust the spacing between images as needed */
+}
